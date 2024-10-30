@@ -1,0 +1,20 @@
+#arrivals{
+    .card{
+        width: fit-content;
+        border: none;
+        &-description{
+            padding-top: 28px;
+            .card-subheading{
+                padding-top: 7px;
+                color:gray;
+            }
+
+            &-explorelink{
+                i{
+                    font-size: 32px;
+                    color:gray;
+                }
+            }
+        }
+    }
+}

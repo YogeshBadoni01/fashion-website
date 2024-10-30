@@ -1,0 +1,35 @@
+#community{
+    background-color: #EBD96B;
+    padding: 140px 400px;
+    text-align: center;
+    margin-bottom:0;
+    .community{
+        &-heading{
+            h2{
+                color:#fff;
+                font-weight:700;
+            }
+            padding-bottom:37px
+        }
+        &-subheading{
+            p{
+                color:#fff
+            }
+            padding-bottom: 50px;
+        }
+
+        &-btn{
+            padding: 10px;
+            background:#fff;
+            border-radius: 20px;
+            input{
+                width:500px;
+                outline:none;
+                border: none;
+                padding: 0 10px;
+                color: #000;
+                font-size: 30px;
+            }
+        }
+    }
+}

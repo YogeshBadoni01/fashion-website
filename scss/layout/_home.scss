@@ -1,0 +1,87 @@
+#home{
+    margin-top: 0;
+    padding-top: 0;
+    .home{
+        background-color: $gray_color;
+        border-radius: 10px;
+        padding: 100px 100px 0 100px;
+        position: relative;
+        z-index: -100;
+        &-text{
+            padding-left: 91px;
+            &-heading{
+                h1{
+                    @include media-breakpoint-down(xxl){
+                        font-size: 76px;
+                    }
+                    .lets_bg{
+                        z-index: 1;
+                        &::before{
+                            content: " ";
+                            width: 442px;
+                            height: 100px;
+                            position: absolute;
+                            z-index: -1;
+                            padding-left: 8px;
+                            left: 150px;
+                            top: 105px;
+                            transform: rotate(-2deg);
+                            background-color: #fff;
+                    }
+                    }
+                    .unique_bg{
+                        z-index: 1;
+                        &::before{
+                            content: " ";
+                            width: 442px;
+                            height: 100px;
+                            position: absolute;
+                            z-index: -1;
+                            padding-left: 8px;
+                            left: 150px;
+                            top: 353px;
+                            transform: rotate(-2deg);
+                            background-color: $primary_color;
+                        }
+                    }                   
+                    }
+                }
+            &-subheading{
+                p{
+                    font-size: 25px;
+                    padding-top:40px
+                }
+            }
+
+            &-btn{
+                padding-top:30px;
+            }
+            }
+
+        }
+        .home-img{
+            position: relative;
+            .star{
+                position:absolute;
+                font-size: 50px;
+                color:#E7E6E6;
+                }
+            .top_left{
+                top: 0;
+                left: 0;
+            }
+            .top_right{
+                top: 36px;
+                right: 150px;
+            }
+            .bottom_left{
+                bottom: 33px;
+                left: 23px;
+            }
+            .bottom_right{
+                bottom: 91px;
+                right: 2px;
+            }
+        }
+    }
+    

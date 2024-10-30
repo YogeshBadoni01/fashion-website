@@ -1,0 +1,32 @@
+#header{
+    nav{
+        padding: 50px 0;
+        .navbar-brand{
+            img{
+                padding-bottom: 10px;
+            }
+            span{
+                font-size: 30px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+        }
+        .collapse{
+            .navbar-nav{
+                .nav-item{
+                    padding: 0 8px;
+                    .nav-link{
+                            font-size: 22px;
+                            font-weight: 500;
+                    }
+                }
+            }
+        }
+
+        .header-btn{
+            a{
+                color: #fff;
+            }
+        }
+    }
+}
