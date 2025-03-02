@@ -1,0 +1,20 @@
+.btn{
+    background:$dark;
+    border-radius: 10px;
+    padding: 16px 26px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    font-size: 20px;
+                @include media-breakpoint-up(md) { 
+                    font-size: 30px;
+                    margin-top: 10px;
+                }
+    &:hover{
+        background:$primary_color;
+        box-shadow: 0 8px 28px rgb(206 18 18 / 45%);
+        border: 2px solid $dark;
+        color:$dark;
+    }
+}
+

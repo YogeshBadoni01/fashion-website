@@ -1,0 +1,100 @@
+#paydaysale{
+    background-color:#f9dc56;
+    .paydaysale{
+        background: linear-gradient(1.32deg, #F9DD55 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+
+        &-img{
+            position: relative;
+            height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+                filter: drop-shadow(100px 60px 120px black);
+
+
+            }
+            display: flex;
+            @include media-breakpoint-down(md){
+                display: none;
+            }
+            &-starts{
+                .star{
+                    position: absolute;
+                    font-size: 60px;
+                    color: rgba(255,255,255,0.5);
+                    transform: rotate(45deg);
+                }
+                .top_left{
+                    top: 189px;
+                    left: 168px;
+                }
+                .top_right{
+                    top: 125px;
+                    right: 145px;
+                }
+                .bottom_left{
+                    bottom: 308px;
+                    left: 100px;
+                    
+                }
+                .bottom_right{
+                    bottom: 193px;
+                    right: 121px;
+                    
+                }
+            }
+        }
+        &-text{
+            padding: 150px 150px 150px 0;
+            position: relative;
+            z-index: 01;
+            @include media-breakpoint-down(xl) { 
+                padding: 75px ;
+                font-size: 30px;
+                padding-left: 0;
+            }
+            // background: linear-gradient(1.32deg, #F9DD55 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+
+            &-heading{
+                line-height: 137px;
+                text-transform: uppercase;
+                position: relative;
+                span{
+                    z-index: 1;
+                    &::before{
+                        content: " ";
+                        width: 442px;
+                        height: 50%;
+                        position: absolute;
+                        z-index: -1;
+                        padding-left: 8px;
+                        // left: -13px;
+                        // top: 155px;
+                        transform: rotate(-2deg);
+                        background-color: #fff;
+                        @include media-breakpoint-down(lg) { 
+                            // height: 100px;
+                            width: 50%;
+                        }
+                        @include media-breakpoint-down(xs) { 
+                            // height: 100px;
+                            width: 100%;
+                        }
+                    }
+                }
+                
+            }
+
+            &-subheading{
+                padding-top: 35px;
+                &-time{
+                    padding-top: 40px;
+                }
+            }
+
+            &-btn{
+                padding-top: 51px;
+            }
+        }
+    }
+}

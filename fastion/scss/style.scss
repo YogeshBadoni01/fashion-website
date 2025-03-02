@@ -1,0 +1,32 @@
+//  =======================scss====================== 
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//  =======================base====================== 
+@import 'base/reset';
+@import "base/typography";
+
+//  =======================Helpers====================== 
+
+@import 'helpers/variable';
+
+//  =======================Component====================== 
+
+@import 'components/button';
+@import 'components/font';
+@import 'components/heading';
+
+
+//  =======================Home-layout====================== 
+
+@import 'layout/header';
+@import 'layout/home';
+@import 'layout/brands';
+@import 'layout/arrivals';
+@import 'layout/paydaysale';
+@import 'layout/favourite';
+@import 'layout/voucher';
+@import 'layout/community';
+@import 'layout/footer';
+
+

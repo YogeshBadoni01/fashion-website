@@ -1,0 +1,32 @@
+#arrivals{
+    padding: 0 50px;
+    @include media-breakpoint-down(md) { 
+        padding: 0px;
+    }
+    .card{
+        width: fit-content;
+        border: none;
+        margin: auto;
+        margin-bottom: 100px;
+        
+        &-description{
+            padding-top: 28px;
+            .card-subheading{
+                padding-top: 7px;
+                color:gray;
+                cursor: pointer;
+                &:hover{
+                    color:rgb(4, 4, 4);
+                }
+
+            }
+
+            &-explorelink{
+                i{
+                    font-size: 32px;
+                    color:gray;
+                }
+            }
+        }
+    }
+}
